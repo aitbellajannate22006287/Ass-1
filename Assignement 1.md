@@ -548,7 +548,9 @@ print(intersection(l1,l2))
 
 5. [Union de listes](ex4.3)
 
+
 ...
+
 def union(l1, l2):
     l3 = list(l1)  # Copier l1 pour éviter de modifier l'original
     for e in l2:
