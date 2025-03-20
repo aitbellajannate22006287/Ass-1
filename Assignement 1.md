@@ -552,7 +552,7 @@ print(intersection(l1,l2))
 ...
 
 def union(l1, l2):
-    l3 = list(l1)  # Copier l1 pour éviter de modifier l'original
+    l3 = list(l1)  
     for e in l2:
         if e not in l3:
             l3.append(e)
